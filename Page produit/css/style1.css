@@ -1,0 +1,148 @@
+@import url(component/colonne.css);
+@import url(component/description.css);
+
+/* Style */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+   
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 15px;
+    display: flex;
+  }
+
+  .content{
+    width: 80%;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 10vw;
+    position: fixed;
+  }
+
+  .left-column{
+    margin-top: 100px;
+  }
+
+  .right-column{
+    margin-top: 100px;
+  }
+  
+.navbar{
+  z-index: 999;
+  position: absolute;
+}
+
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    filter: drop-shadow(2px 2px 2px #222222a6);
+  }
+  
+  .navbar input[type="search"] {
+    display: flex;
+    width: 442px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: rgba(245, 247, 250, 0.30);
+  }
+
+  input::placeholder {
+color: rgb(203, 199, 199);
+  }
+
+  .navbar button {
+    font-weight: bold;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--neutral-silver, #F5F7FA);
+  }
+  
+  .navbar button.signup {
+    font-weight: bold;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #06C167;
+  }
+
+  .login {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-column h4 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+li{
+margin-bottom: 5px;
+}
+
+.footer-column ul li a:hover {
+  color: #fff; 
+}
+
+.footer-social-icons {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-social-icons img {
+  width: 30px;
+  height: auto;
+}

@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Uber Bagarre</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+
+    <div class="navbar">
+        <div class="content">
+            <img class="logo" src="css/src/img/Group 3.svg"/>
+            <input type="search" placeholder="Rechercher un combattant" style="color: white;">
+                <div class="login">
+                    <button type="button">Login</button>
+                    <button type="button" class="signup">Sign up</button>
+                </div>
+        </div>
+    </div>
+
+    <div class="banner" >    
+        <h1 class="main-title"> Un imprévu vous empêche de
+          vous rendre à votre <span class="green">bagarre ? </span></h1>  
+          <p class="subtitle">Trouvez un combattant prêt de chez vous</p>
+            <div class="searchbar">
+              <input type="search" placeholder="Exemple : Paris (75 016)" style="color: white;">
+            </div>
+            <button class="cta" onclick="openProductPage()">Rechercher</button>
+          </div>
+
+    <div class="container">
+      <div class="section-title">
+        <h1>Nos Packs</h1>
+        <p class="subtitle2">Des solutions adaptées à votre situation</p>
+      </div>
+      <img class="uberlogo" src="css/src/img/Bagarreclassic.svg"/>
+      <div class="cards">
+        <div class="card1">
+          <div class="card-image1" id="loris"></div>
+          <div class="card-description">
+            <div class="card-title">La flamme</div>
+            <div class="card-subtitle"><b>Nom complet :</b> Loris Charo</br></br> combattant MMA spécialisé en Spin Kick.</br></br><b>Taille :</b> 1m83</br><b>Poids :</b> 84KG</br><b>Compétences :</b> MMA</div>
+            <button type="button" class="purchase" onclick="openProductPage()">49,99€</button>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="card-image1" id="uzair"></div>
+          <div class="card-description">
+            <div class="card-title">La flèche</div>
+            <div class="card-subtitle"><b>Nom complet :</b> Uzair Baki </br></br> bien lutte bien vif (sort des aubiers, guetteur en intérim)</br></br><b>Taille :</b> 1m79</br><b>Poids :</b> 66KGS</br><b>Compétences :</b> LUTTE, JJB</div>
+            <button type="button" class="purchase" onclick="openProductPage()">39,99€</button>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="card-image1" id="thomas"></div>
+          <div class="card-description">
+            <div class="card-title">Le marteau</div>
+            <div class="card-subtitle"><b>Nom complet :</b> Thomas Bertrand</br></br> Pratique le noble art depuis 6 ans, un peu fragile sur les bords</br></br><b>Taille :</b> 1m76</br><b>Poids :</b> 78kgs</br><b>Compétences :</b> BOXE ANGLAISE</div>
+            <button type="button" class="purchase" onclick="openProductPage()">29,99€</button>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="card-image1" id="moktar"></div>
+          <div class="card-description">
+            <div class="card-title">La montagne</div>
+            <div class="card-subtitle"><b>Nom complet :</b> Moktar Gaouad</br></br> Videur au théatro, déteste les t-shirts gucci avec des strass</br></br><b>Taille :</b> 1m92 </br><b>Poids :</b> 128 KGS</br> <b>Compétences :</b> Lancer de nain</div>
+            <button type="button" class="purchase" onclick="openProductPage()">44,99€</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="section">
+    <div class="container">
+      <img class="uberlogo" src="css/src/img/signature.svg"/>
+      <div class="cards">
+        <div class="card2">
+          <div class="card-image2" id="jumeaux"></div>
+          <div class="card-description">
+            <div class="card-title">Les Jumeaux</div>
+            <div class="card-subtitle">Duo de tchétchène avec oreilles en choux fleurs, Khamzat et Khabib se battaient contre des jeunes ours dans leur enfance. 94% de réussite</div>
+            <button type="button" class="purchase2" onclick="openProductPage()">99,99€</button>
+
+          </div>
+        </div>
+        <div class="card2">
+          <div class="card-image2" id="melee"></div>
+          <div class="card-description">
+            <div class="card-title">La Mêlée</div>
+            <div class="card-subtitle">Première ligne de l’équipe de rubgy de Dax, pratique la bagarre tous les ans avec les ferias, invaincus à ce jour. 96% de réussite</div>
+            <button type="button" class="purchase2" onclick="openProductPage()">139,99€</button>
+          </div>
+        </div>
+        <div class="card2">
+          <div class="card-image2" id="horde"></div>
+          <div class="card-description">
+            <div class="card-title">La Horde</div>
+            <div class="card-subtitle">équipe de gitans remontées mon copin, 64% de réussite Pour la première, 98% en général si revanche avec tous les cousins</div>
+            <button type="button" class="purchase2" onclick="openProductPage()">119,99€ - 239,99€</button>
+          </div>
+        </div>
+        <div class="card2">
+          <div class="card-image2" id="malicieux"></div>
+          <div class="card-description">
+            <div class="card-title">Le Malicieux</div>
+            <div class="card-subtitle">Victoire en décrochant l'empathie et l'éthique de l'adversaire, 50/50 Soit ça passe soit ça casse (immunité judiciaire)</div>
+            <button type="button" class="purchase2" onclick="openProductPage()">79,99€</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <img class="uberlogo" src="css/src/img/xtrem.svg"/>
+      <div class="cards">
+        <div class="card3">
+          <div class="card-image3" id="ghost"></div>
+          <div class="card-description">
+            <div class="card-title-xtrem">Le Fantôme</div></br>
+            <div class="card-subtitle">Le lieutenant Ghost est parfaitement entrainé et doté d'une compétence signature redoutable: le 360 noscope titanic accross the map (en killcam finale)</div>
+            <button type="button" class="purchase3" onclick="openProductPage()">Sur devis</button>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="card-image3" id="hitman"></div>
+          <div class="card-description">
+            <div class="card-title-xtrem">L'agent</div></br>
+            <div class="card-subtitle">Depuis des années, l'agent 47 ne cesse de prouver son efficacité au travers de ses missions périlleuses. Son crâne luisant lui permet de se déguiser facilement.</div>
+            <button type="button" class="purchase3" onclick="openProductPage()">Sur devis</button>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="card-image3" id="michael"></div>
+          <div class="card-description">
+            <div class="card-title-xtrem">La silouhette</div></br>
+            <div class="card-subtitle">Un être froid, dénué d'empathie et assez peu communicatif, mais diablement efficace. Bizarrement, une mélodie retentit quand il vous traque</div>
+            <button type="button" class="purchase3" onclick="openProductPage()">Sur devis</button>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="card-image3" id="ben"></div>
+          <div class="card-description">
+            <div class="card-title-xtrem">Le bronzage express</div></br>
+            <div class="card-subtitle">Pour des raisons de sécurité, nous ne communiquerons pas l'identité de ce combattant, il est cependant important de noter qu'il a remporté 911 combats à ce jour.</div>
+            <button type="button" class="purchase3" onclick="openProductPage()">Sur devis</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="section2">
+    <div class="frame">
+      <div class="content2">
+        <h2>La sécurité et la qualité avant tout</h2>
+        <p>Chez Uber Bagarre, nous mettons un point d'honneur à satisfaire vos besoins sans entraver l'ordre public ni mettre en danger la vie d'autrui.
+          C'est pour cela que chaque prestation est conttrôlée scrupuleusement par notre huissier de justice Franck Castagnou.
+        </br></br>
+        Afin de ne pas provoquer de litiges entre les différents partis, l'équipe Uber Bagarre décline toute responsabilité de représailles et se réserve le droit d'offrir ses prestations à l'adversaire à l'avenir si celui ci en commande.
+        </p>
+        <button class="cta-button" onclick="openProductPage()">Commander !</button>
+      </div>
+      <div class="image-placeholder"></div>
+    </div>
+  </div>
+
+  <div class="section3">
+    <div class="frame2">
+      <div class="content2">
+        <h2>Une disponibilité à tout épreuve</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.0200530357447!2d-0.5724400240086022!3d44.84152497107062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527d1a32e69b3%3A0x174e5d3e97b80b10!2sPlace%20de%20la%20Bourse!5e0!3m2!1sfr!2sfr!4v1706792308528!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="content2">
+        <h2>Votre avis nous intéresse !</h2>
+        <ol>
+          <li class="avis1"><div class="titre-avis">Thomas F.</div>
+            <div class="texte-avis">
+                <p>Des combattants imbattables. J'en suis très satisfait !</p>
+            </div>
+            <div class="etoiles">
+                <span class="etoile">★</span>
+                <span class="etoile">★</span>
+                <span class="etoile">★</span>
+                <span class="etoile">★</span>
+                <span class="etoile">★</span>
+            </div></li>
+          <li class="avis1"><div class="titre-avis">Alain D.</div>
+            <div class="texte-avis">
+                <p>J'aime le piment d'espelette, j'ai donc choisi la mêlée</p>
+            </div>
+            <div class="etoiles">
+                <span class="etoile">★</span>
+                <span class="etoile">★</span>
+                <span class="etoile">★</span>
+                <span class="etoile">★</span>
+            </div></li>
+            <li class="avis1"><div class="titre-avis">Elon M.</div>
+              <div class="texte-avis">
+                  <p>POV, je fais un apagnan en me battant contre un karatéka</p>
+              </div>
+              <div class="etoiles">
+                  <span class="etoile">★</span>
+                  <span class="etoile">★</span>
+                  <span class="etoile">★</span>
+                  <span class="etoile">★</span>
+                  <span class="etoile">★</span>
+              </div></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>A propos de nous</h4>
+        <ul>
+          <li><a href="#">L'équipe</a></li>
+          <li><a href="#">Le réseau</a></li>
+          <li><a href="#">Carrières</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Classique</a></li>
+          <li><a href="#">Signature</a></li>
+          <li><a href="#">Extreme</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Assistance</a></li>
+          <li><a href="#">Forums</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#">uber@bagarre.fr</a></li>
+          <li><a href="#">Quoicoubeh</a></li>
+        </ul>
+      </div>
+      <div class="footer-social-icons">
+          <img src="css\src\img\insta.webp" alt="Instagram" />
+          <img src="css\src\img\x.png" alt="X" />
+          <img src="css\src\img\linkedin.png" alt="LinkedIn" />
+          <img src="css\src\img\of.png" alt="OnlyFans" />
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function openProductPage() {
+      window.open('Page produit/produit.html', '_blank');
+    }
+    </script>
+
+  </body>
+</html>
